@@ -1,8 +1,8 @@
 {
-  "name": "new-site",
+  "name": "my-site",
   "version": "1.0.0",
   "private": true,
-  "description": "new-site",
+  "description": "My Site",
   "author": "Andrew Doumont",
   "keywords": [
     "gatsby"
