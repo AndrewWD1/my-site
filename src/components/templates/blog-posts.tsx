@@ -2,7 +2,6 @@ import * as React from "react";
 import { Link } from "gatsby";
 import Layout from "../layout";
 require(`katex/dist/katex.min.css`);
-require("prismjs/themes/prism-solarizedlight.css");
 
 export default ({ pageContext }: { pageContext: any }) => {
   const post = pageContext;
