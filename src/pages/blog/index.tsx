@@ -10,13 +10,12 @@ const BlogPage = ({ data }: { data: any }) => {
         <h2>Blog Entries</h2>
         {data.allMarkdownRemark.edges.map((edge: any) => (
           <div>
-            <h3>
-              <Link to={edge.node.fields.slug}>
-                {edge.node.frontmatter.title}
-              </Link>
-            </h3>
-            <div>{edge.node.frontmatter.date}</div>
-            <div>{edge.node.excerpt}</div>
+            <Link to={edge.node.fields.slug}>
+              <h3 className="blog-item-title">{edge.node.frontmatter.title}</h3>
+            </Link>
+
+            <div className="blog-item-date">{edge.node.frontmatter.date}</div>
+            <p>{edge.node.excerpt}</p>
           </div>
         ))}
       </div>

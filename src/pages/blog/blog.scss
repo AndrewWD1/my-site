@@ -635,4 +635,16 @@
   a {
     text-decoration: none;
   }
+
+  .blog-item {
+    &-title {
+      color: rgb(15, 77, 122);
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+    &-date {
+      margin: 0px;
+      font-size: 0.8rem;
+    }
+  }
 }
