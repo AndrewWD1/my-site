@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 const TeachingPage = () => {
   return (
     <Layout image={1}>
-      <div>
+      <div className="info-container">
         <h2>Teaching</h2>
         <ul>
           <li>I'm currently instructing Calc.</li>
