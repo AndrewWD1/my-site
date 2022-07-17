@@ -1,10 +1,12 @@
 import * as React from "react";
+import { Helmet } from "react-helmet";
 import Layout from "../components/layout";
 import "../styles.scss";
 
 const IndexPage = () => {
   return (
     <Layout image={1}>
+      
       <div className="info-container">
         <h1>Welcome</h1>
         <ul>

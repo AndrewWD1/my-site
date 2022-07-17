@@ -5,7 +5,7 @@ import "./blog.scss";
 
 const BlogPage = ({ data }: { data: any }) => {
   return (
-    <Layout image={0}>
+    <Layout image={0} blog>
       <div className="blog-container">
         <h2>Blog Entries</h2>
         {data.allMarkdownRemark.edges.map((edge: any) => (
