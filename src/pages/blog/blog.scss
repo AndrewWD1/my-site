@@ -10,6 +10,7 @@
 // }
 
 .blog-container {
+  font-size: 120%;
   margin: 1rem auto;
   max-width: 960px;
   padding: 0px 1.0875rem 1.45rem;
@@ -646,5 +647,24 @@
       margin: 0px;
       font-size: 0.8rem;
     }
+  }
+
+  .other-articles {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .link-underline {
+    color: rgb(15, 77, 122);
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .divider {
+    border-top: 1px solid black;
   }
 }
