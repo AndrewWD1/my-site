@@ -9,7 +9,7 @@ const Layout = ({
   children,
 }: {
   image: number;
-  blog: boolean;
+  blog?: boolean;
   children: any;
 }) => {
   return (
