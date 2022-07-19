@@ -1,6 +1,6 @@
 import * as React from "react";
 import "../styles.scss";
-import { Link } from "gatsby";
+import { Link, Script } from "gatsby";
 import { Helmet } from "react-helmet";
 
 const Layout = ({
@@ -35,6 +35,7 @@ const Layout = ({
         </ul>
       </nav>
       <main>{children}</main>
+      <Script src={"../../script.js"} />
     </>
   );
 };
